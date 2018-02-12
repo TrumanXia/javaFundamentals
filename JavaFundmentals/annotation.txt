@@ -1,0 +1,15 @@
+注解也称为元数据，使得元数据和源代码文件结合在一起，而不用保存在外部文档中。
+常用：
+标准注解：
+@Override
+@Deprecated
+@SuppressWarnings
+元注解：
+@Target 
+@Retention RUNTIME 将在运行期间保留，可以通过反射机制读取注解的信息
+@Documented
+@Inherited
+
+编写注解，就要有注解处理器
+
+
