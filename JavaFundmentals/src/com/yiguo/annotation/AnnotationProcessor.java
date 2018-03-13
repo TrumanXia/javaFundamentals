@@ -10,7 +10,7 @@ public class AnnotationProcessor
         for (Method method : cls.getDeclaredMethods()){
             
             UseCase useCase = method.getDeclaredAnnotation(UseCase.class);
-            System.out.println(useCase.id() + useCase.description());
+            System.out.println(useCase.id()+": " + useCase.description());
         }
     }
 }

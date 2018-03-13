@@ -45,5 +45,6 @@ public @interface UseCase
 
     public int id() default -1;
 //    public int value(); 
+
     public String description() default "no description";
 }
